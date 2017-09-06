@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "607970990454",
+    "firebase_url": "https://pokebuddynew.firebaseio.com",
+    "project_id": "pokebuddynew",
+    "storage_bucket": "pokebuddynew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607970990454:android:5d02c80fc3cdedb6",
+        "android_client_info": {
+          "package_name": "com.asad.android.pokebuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607970990454-3ugs45kc6448hc2on1cdo4lb5a2kc3f8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG8tb4USgoJeKoT2tH1UqYKzHz8VTg9nw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

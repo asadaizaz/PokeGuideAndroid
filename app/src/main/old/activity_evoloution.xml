@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+android:background= "#BDBDBD"
+    >
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+
+            android:elevation="4dp"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/poke_result_name"
+        android:layout_alignParentStart="true"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textColor="#212121"
+
+        android:paddingTop="16dp"
+
+        android:paddingBottom="16dp"
+
+        android:layout_below="@+id/poke_enter_name"
+        android:layout_marginTop="50dp"
+    android:layout_toEndOf="@id/poke_result_icon"/>
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_alignParentStart="true"
+    android:layout_alignEnd="@+id/poke_result_icon"
+    android:layout_below="@+id/cp_text"
+    android:layout_above="@+id/poke_result_icon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textColor="#212121"
+        android:layout_below="@+id/cp_text"
+        android:layout_marginTop="23dp"
+        android:layout_toEndOf="@+id/poke_enter_icon"
+        android:paddingBottom="16dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="Enter CP"
+        android:imeOptions="actionNext"
+        android:textColor="#212121"
+
+        android:layout_below="@+id/poke_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="108dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/poke_result_icon"
+
+
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:layout_below="@id/poke_result_name"
+        android:layout_toEndOf="@id/pokemon_third_icon"
+        android:textColor="#212121"
+
+        android:paddingTop="40dp"
+        />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_evo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>
+
